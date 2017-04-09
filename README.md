@@ -6,13 +6,21 @@ Consider having 2 arrays of objects and you want to find the difference between 
 
 ### Example
 ```javascript
-var ar = [
+var persons = [
   {name: 'John', age:24, gender: 'M'},
   {name: 'Jane', age:22, gender: 'F'},
   {name: 'Emily', age:26, gender: 'F'}
 ];
 
-console.diffTable(ar, [{name: 'John', age:24, gender: 'M'}]);
+console.diffTable(persons, [{name: 'John', age:24, gender: 'M'}]);
 ```
-Output:
-![Output table.](/images/table1.jpg?raw=true)
+Output: <br/>
+> ![Output table.](/images/table1.jpg?raw=true)
+
+The table shows the difference in a very neat way. The row with the red background represents the common object between the 2 arrays.
+
+## Usage
+Just download this file **difftable.min.js** and place a script tag pointing to it in your HTML:
+```html
+<script type="text/javascript" src="difftable.min.js"></script>
+```
