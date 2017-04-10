@@ -28,7 +28,10 @@ The rows with red background represent the common objects between the 2 arrays.
 The rows with green background represent the rest of the objects in array 1.
 
 ## Usage
-Just download the "**difftable.min.js**" file and place a script tag pointing to it in your HTML:
+Just download the "**difftable.min.js**" file and place this script tag in your HTML:
 ```html
 <script type="text/javascript" src="difftable.min.js"></script>
 ```
+
+## License
+MIT (c) 2017 Saad Malaeb.
