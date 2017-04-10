@@ -1,0 +1,19 @@
+{
+  "name": "console.table.diff",
+  "version": "1.0.0",
+  "description": "Adds the \"console.table.diff\" method that logs the difference between 2 arrays of objects in a styled table.",
+  "main": "difftable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadmb/console.table.diff.git"
+  },
+  "author": "Saad Malaeb <sa3dmalaeb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saadmb/console.table.diff/issues"
+  },
+  "homepage": "https://github.com/saadmb/console.table.diff#readme"
+}
