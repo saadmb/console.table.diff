@@ -1,4 +1,4 @@
-# console.diffTable
+# console.table.diff
 A simple script that adds a function to the `console.table` object that displays a **styled** table of difference between 2 arrays of objects, since there's no styling capabilities on the `console.table` function, as per the [Console API](https://developer.mozilla.org/en-US/docs/Web/API/Console).  
   
   It is useful for debugging in the browser's _Web Console_ in a clear and neat way. 
