@@ -3082,7 +3082,7 @@ function getLongestTextLength(objArray) {
     return longest;
 }
 
-console.diffTable = function(objArray, Ar2) {
+console.table.diff = function(objArray, Ar2) {
     var objProto = objArray[0];
     var args = [];
     var header = '';
