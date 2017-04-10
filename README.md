@@ -4,7 +4,9 @@ A simple script that adds a function to the `console` object that displays a **s
   It is useful for debugging in the browser's _Web Console_ in a clear and neat way. 
 
 ## Quickstart
-Consider having 2 arrays of objects and you want to find the difference between them, and then display the result in a styled table. The difference is computed using the [lodash.differenceWith](https://lodash.com/docs/4.17.4#differenceWith) and [lodash.isEqual](https://lodash.com/docs/4.17.4#isEqual) methods. 
+Consider having 2 arrays of objects and you want to find the difference between them, and then display the result in a styled table. The difference is computed using the [lodash.differenceWith](https://lodash.com/docs/4.17.4#differenceWith) and [lodash.isEqual](https://lodash.com/docs/4.17.4#isEqual) methods.  
+  
+  Definition: `console.diffTable(objAr1, objAr2);`
 
 ### Example
 ```javascript
@@ -22,10 +24,11 @@ console.diffTable(persons, [{name: 'John', age: 24, gender: 'M'}]);
 Output: <br/>
 > ![Output table.](/images/table1.jpg?raw=true)
 
-The rows with red background represent the common objects between the 2 arrays.
+The rows with red background represent the common objects between the 2 arrays.  
+The rows with green background represent the rest of the objects in array 1.
 
 ## Usage
-Just download this file **difftable.min.js** and place a script tag pointing to it in your HTML:
+Just download the "**difftable.min.js**" file and place a script tag pointing to it in your HTML:
 ```html
 <script type="text/javascript" src="difftable.min.js"></script>
 ```
