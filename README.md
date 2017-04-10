@@ -13,7 +13,7 @@ Consider having 2 arrays of objects and you want to find the difference between 
 var persons = [
   {name: 'John', age: 24, gender: 'M'},
   {name: 'Jane', age: 22, gender: 'F'},
-  {name: 'Emily', age: 26, gender: 'F'}
+  {name: 'Smith', age: 26, gender: 'M'}
 ];
 
 console.diffTable(persons, [{name: 'John', age: 24, gender: 'M'}]);
