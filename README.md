@@ -15,6 +15,9 @@ var persons = [
 ];
 
 console.diffTable(persons, [{name: 'John', age: 24, gender: 'M'}]);
+// Or console.diffTable(persons, [persons[0]]);
+// The lodash.isEqual comparator used performs a deep comparison 
+// between the 2 values to determine if they are equivalent.
 ```
 Output: <br/>
 > ![Output table.](/images/table1.jpg?raw=true)
