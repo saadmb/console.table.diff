@@ -1,8 +1,17 @@
 {
   "name": "console.table.diff",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds the \"console.table.diff\" method that logs the difference between 2 arrays of objects in a styled table.",
-  "keywords": ["browser", "html", "web-console", "console", "console-tool", "debugging", "table-view", "console-table"],
+  "keywords": [
+    "browser",
+    "html",
+    "web-console",
+    "console",
+    "console-tool",
+    "debugging",
+    "table-view",
+    "console-table"
+  ],
   "main": "difftable.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
