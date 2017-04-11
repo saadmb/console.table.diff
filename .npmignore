@@ -1,2 +1,3 @@
-# exclude images
+# exclude images and src
 /images
+/src

@@ -27,11 +27,8 @@ Output: <br/>
 The rows with red background represent the common objects between the 2 arrays.  
 The rows with green background represent the rest of the objects in array 1.
 
-## Usage
-```
-npm install console.table.diff
-```
-Then place this script tag in your HTML:
+## Usa in browser
+Just get the **difftable.min.js** file, then place this script tag in your HTML:
 ```html
 <script type="text/javascript" src=".../difftable.min.js"></script>
 ```
