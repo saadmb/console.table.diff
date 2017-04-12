@@ -30,7 +30,7 @@ function getLongestTextLength(objArray) {
     return longest;
 }
 
-console.table.diff = function(objArray, Ar2) {
+window.console.table.diff = function(objArray, Ar2) {
     var objProto = objArray[0];
     var args = [];
     var header = '';
@@ -102,5 +102,7 @@ console.table.diff = function(objArray, Ar2) {
     }
 
     args.unshift(header);
-    console.log.apply(this, args);
+    window.console.log.apply(this, args);
 }
+
+module.exports = window.console.table;
